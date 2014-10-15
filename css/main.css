@@ -16,6 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+
+    html {
+        font-size: 110%
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+
+    html {
+        font-size: 120%
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+
+    html {
+        font-size: 130%
+    }
+    
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -65,6 +89,11 @@ h3 {
     text-align: center;
 }
 
+.backgroundlightgreydiscovery {
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+
 .verylightgreybackground {
     background-color: #efefef;
     padding-top: 1rem;
@@ -74,7 +103,7 @@ h3 {
     background-color: #e2e2e2;
 } 
 
-@media only screen and (min-width: 22em) {
+@media only screen and (min-width: 25em) {
 
     .nav {
         text-align: center;
@@ -83,6 +112,10 @@ h3 {
     .nav li {
         display: inline-block;
         border: 0;
+    }
+    
+    .copyright {
+        text-align: center;
     }
     
 }
@@ -96,6 +129,41 @@ h3 {
     h1 {
         float: left;
     }
+    
+    .copyright {
+        text-align: left;
+    }
+    
+    .copyrightul {
+        float: right;
+    }
         
 }
 
+@media only screen and (min-width: 60em) {
+    
+    .copyright {
+        text-align: left;
+    }
+    
+    .copyrightul {
+        float: right;
+    }
+    
+    dt {
+        float: left;
+        clear: left;
+        width: 9rem;
+    }
+    
+    dd {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    dl {
+        overflow: hidden;
+    }
+        
+}
