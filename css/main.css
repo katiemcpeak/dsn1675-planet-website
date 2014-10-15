@@ -118,6 +118,21 @@ h3 {
         text-align: center;
     }
     
+    .navfooter li::after {
+        content:" · "
+    }
+    
+    .navfooter a {
+        display: inline; 
+    }
+    
+    .navfooter :last-child::after {
+        content: none;
+    }
+    
+    .navfooter {
+        color: blue;
+    }
 }
 
 @media only screen and (min-width: 50em) {
