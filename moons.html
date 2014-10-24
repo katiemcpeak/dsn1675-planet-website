@@ -9,11 +9,18 @@
   <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
+    
+<ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#navigation">Skip to main navigation</a></li>
+</ul>
 
 <div class="backgroundgrey">
-<h1 class="header push-none gutter">Moons</h1>
+<h1 role="banner" class="header push-none gutter">Moons</h1>
 
-<nav>
+<main role="main">
+    
+<nav role="navigation" id="navigation">
     <ul class="nav tera push-none">
      <li class="giga island-1-2"><a href="index.html">Planet</a></li>
      <li class="giga island-1-2"><a href="moons.html">Moons</a></li>
@@ -79,14 +86,16 @@
                 <h3 class="push-none island">Discovery</h3>
             <div class="grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 island-1-2">    
-            <img src="images/Jupiter-moons.jpg" alt="callisto" class="gutter-half">
+            <img src="images/jupiter-moons.jpg" alt="callisto" class="gutter-half">
             </div>
                 <p class="micro gutter unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">The first claimed observation of one of Jupiter's moons is that of the Chinese astronomer Gan De around 364 BC. However, the first certain observations of Jupiter's satellites were those of Galileo Galilei in 1609.By March 1610, he had sighted the four massive Galilean moons with his 30x magnification telescope:Ganymede, Callisto, Io, and Europa. No additional satellites were discovered until E. E. Barnard observed Amalthea in 1892.With the aid of telescopic photography, further discoveries followed quickly over the course of the twentieth century. Himalia was discovered in 1904, Elara in 1905, Pasiphaë in 1908, Sinope in 1914, Lysithea and Carme in 1938, Ananke in 1951, and Leda in 1974, By the time Voyager space probes reached Jupiter around 1979, 13 moons had been discovered; while Themisto was observed in 1975, but due to insufficient initial observation data, it was lost until 2000. The Voyager missions discovered an additional three inner moons in 1979: Metis, Adrastea, and Thebe.</p>
             </div>
             </div>
+    
+</main>
 
     <div class="backgroundgrey grid pad-t">
-        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
+        <div role="contentinfo" class="unit unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
         <p class="micro push-none gutter">© Jupiter Planetary Consortium</p>
         </div>
 <nav class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">

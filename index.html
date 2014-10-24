@@ -10,10 +10,15 @@
 </head>
 <body>
 
+<ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#navigation">Skip to main navigation</a></li>
+</ul>
+    
 <div class="backgroundgrey">
-<h1 class="header push-none gutter">Jupiter</h1>
+<h1 role="banner" class="header push-none gutter">Jupiter</h1>
 
-<nav>
+<nav role="navigation" id="navigation">
     <ul class="nav tera push-none">
      <li class="giga island-1-2"><a href="index.html">Planet</a></li>
      <li class="giga island-1-2"><a href="moons.html">Moons</a></li>
@@ -21,6 +26,8 @@
     </ul>
 </nav>
 </div>
+ 
+<main role="main" id="main">
     
 <div class="backgroundlightgrey">
     <h2 class="heda">Jupiter, the fifth planet in the Solar System.</h2>
@@ -102,8 +109,10 @@
 </div>
 </div>
     
+</main>
+    
         <div class="backgroundgrey grid pad-t">
-        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
+        <div role="contentinfo" class="unit unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
         <p class="micro push-none gutter">© Jupiter Planetary Consortium</p>
         </div>
 <nav class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
