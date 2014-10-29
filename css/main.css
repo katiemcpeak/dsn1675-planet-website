@@ -205,3 +205,69 @@ h3 {
     }
         
 }
+
+.interested {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.form2 {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 35em;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+button {
+    background-color: white;
+    padding: 0.5em 0.75em;
+}
+
+button:hover {
+    background-color: #093;
+    cursor: pointer;
+    color: #fff;
+}
+
+.signup {
+    text-align: center;
+}
+
+.explorationgreybackground {
+     background-color: #e2e2e2;
+     overflow: hidden;
+}
+
+input[type="text"] {
+    padding: .75em;
+    width: 100%;
+}
+
+input[type="email"] {
+    padding: .75em;
+    width: 100%;
+}
+
+input[type="number"] {
+    padding: .75em;
+    width: 100%;
+}s
+
+.writting {
+    width: 100%;
+}
+
+.radio {
+    white-space: nowrap;
+}
