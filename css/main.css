@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -94,36 +93,44 @@ h3 {
 }
 
 .nav a,
-.nav a:visited,
-.nav a:active {
+.nav a:visited {
     display: block;
-    color: #0074D9;
+    color: #99FFFF;
     text-decoration: none;
 }
+
+.nav a:hover,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #00CCCC;
+    color: #fff;
+}
     
-.backgroundgrey {
-    background-color: #ccc;
+.backgroundblue {
+    background-color: #0099CC;
     overflow: hidden;
 }
 
-.backgroundlightgrey {
-    background-color: #e2e2e2;
+.backgroundgreen {
+    background-color: #00CCCC;
     overflow: hidden;
     text-align: center;
 }
 
-.backgroundlightgreydiscovery {
-    background-color: #e2e2e2;
+.backgroundlightblue {
+    background-color: #99FFFF;
     overflow: hidden;
 }
 
-.verylightgreybackground {
-    background-color: #efefef;
+.verylightbluebackground {
+    background-color: #E0FFFF;
     padding-top: 1rem;
 }
 
-.verylightgreybackground2 {
-    background-color: #e2e2e2;
+.verylightbluebackground2 {
+    background-color: #CCFFFF;
 } 
 
 @media only screen and (min-width: 25em) {
@@ -154,7 +161,7 @@ h3 {
     }
     
     .navfooter {
-        color: blue;
+        color: #99FFFF;
     }
 }
 
@@ -207,7 +214,7 @@ h3 {
 }
 
 .interested {
-    background-color: #e2e2e2;
+    background-color: #E0FFFF;
     text-align: center;
 }
 
@@ -235,18 +242,13 @@ button {
 }
 
 button:hover {
-    background-color: #093;
+    background-color: #0099CC;
     cursor: pointer;
     color: #fff;
 }
 
 .signup {
     text-align: center;
-}
-
-.explorationgreybackground {
-     background-color: #e2e2e2;
-     overflow: hidden;
 }
 
 input[type="text"] {
@@ -262,7 +264,7 @@ input[type="email"] {
 input[type="number"] {
     padding: .75em;
     width: 100%;
-}s
+}
 
 .writting {
     width: 100%;
